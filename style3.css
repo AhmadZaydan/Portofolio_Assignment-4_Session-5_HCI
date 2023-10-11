@@ -1,0 +1,142 @@
+html {
+  min-height: 100%;
+  background-image: linear-gradient(to bottom right, rgb(1, 94, 134), rgb(0, 0, 0), rgb(1, 94, 134));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+body {
+    
+    color: lightcyan;
+    font-family: sans-serif;
+  }
+  /* Style the top navigation bar */
+  .topnav {
+    display: flex;
+    overflow: hidden;
+    background-image: linear-gradient(to right, rgb(0, 145, 208), rgb(0, 149, 147),rgb(28, 209, 140)); 
+    justify-content: center;
+
+    
+  }
+  .topnav ul{
+    display: flex;
+    list-style: none;
+
+  }
+
+
+  /* Style the topnav links */
+  .topnav a {
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all .5s ease;
+  }
+
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    box-shadow: 0 0 20px white;
+    
+  }
+
+  img{
+    display: block;
+    border-radius: 50px;
+    max-width: auto;
+    max-height: auto;
+    margin-left: 100px;
+  }
+
+  .header{
+    margin-top: 300px;
+  }
+
+  .picset{
+    padding: 30px;
+  }
+  #checkbox{
+      text-align: left;
+      font-family: Arial;
+  }
+
+  #home{
+    font-size: 25px;
+  }
+
+  #about{
+    font-size: 25px;
+    
+  }
+
+  #other{
+    font-size: 25px;
+    
+  }
+  #contact{
+    font-size: 25px;
+    
+  }
+
+  /* Create three equal columns that float next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Create three equal columns that float next to each other */
+  .column1 {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-top: 100px;
+  }
+
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    .column1 {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .range{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h2{
+    font-size: medium;
+    margin-right: 150px;
+  }
+
+  
+  
+
+
+
